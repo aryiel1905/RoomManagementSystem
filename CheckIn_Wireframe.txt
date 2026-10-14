@@ -1,0 +1,16 @@
+Check-In Wireframe
+==================
+
++----------------------------------------------------------------------------------+
+| Check-In: User/Role | Date/Time | [Search Booking] [Walk-In] [Refresh] [Exit]    |
++---------------------------+--------------------------------------+---------------+
+| Booking Lookup (Left)     | Guest & Room Details (Center)        | Payment       |
+| - Search box              | - Guest Name                         | - Deposit Due |
+| - Booking list            | - Contact / ID                       | - Amount Paid |
+| - Filters (date/status)   | - Room No / Type / Rate              | - Balance     |
+|                           | - Check-In Date/Time                 | - Payment Mode|
+|                           | - Pax / Notes                        | - Receipt     |
++---------------------------+--------------------------------------+---------------+
+| Actions (Bottom)                                                         |
+| [Confirm Check-In] [Assign Room] [Add Notes] [Cancel]                     |
++----------------------------------------------------------------------------------+

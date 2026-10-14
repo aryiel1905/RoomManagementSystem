@@ -1,0 +1,51 @@
+Check-In Wireframe (Detailed)
+=============================
+
++============================================================================================================================+
+| OPERATOR: ADMIN_USER   | TERMINAL: FRONT-01                                                MONDAY, FEB 23, 2026  10:52 AM |
++----------------------------------------------------------------------------------------------------------------------------+
+| [Search Booking]  [New Walk‑In]  [Refresh]  [Print Check‑In Form]                                          [Exit]           |
++----------------------------------------------------------------------------------------------------------------------------+
+| LEFT: ARRIVALS & FILTERS (W ~320)       | CENTER: RESERVATION + ROOM DETAILS (FLEX)      | RIGHT: PAYMENTS (W ~320) |
+|-----------------------------------------+-----------------------------------------------+---------------------------|
+| Filters                                 | Reservation Summary                            | Deposit / Balance         |
+| - Search: [Reservation/Guest........]   | - Reservation No: [BK‑000000]                  | - Total Amount:   [$0.00] |
+| - Date:   [Today ▼]                     | - Status: [Reserved ▼]                         | - Required Deposit:[$0.00]|
+| - Status: [All ▼]                       | - Check‑In:  [MM/DD/YYYY  HH:MM]               | - Paid:           [$0.00] |
+| - Room:   [All Types ▼] [All Class ▼]   | - Check‑Out: [MM/DD/YYYY  HH:MM]               | - Balance:        [$0.00] |
+| [Clear Filters]                          | - Nights:   [0]                               |                           |
+|                                         |                                               | Collect Payment           |
+| Arrivals / Reservations                  | Guest Details                                 | - Amount: [__________]    |
+| ┌─────────────────────────────────────┐ | - Guest Name:  [__________________________]  | - Method: [Cash ▼]         |
+| | BK‑1001  Jane Cruz                  | | - Phone:       [__________________________]  | - Ref/OR: [__________]     |
+| | Deluxe King • 2 Nights              | | - Email:       [__________________________]  | [Collect Payment]          |
+| | 02/23/2026  2 Pax                   | | - ID/Passport: [__________________________]  |                           |
+| |-------------------------------------| | - Address:     [__________________________]  | Payment History            |
+| | BK‑1002  Mike Tan                   | |                                               | ┌────────────────────────┐ |
+| | Standard Twin • 1 Night             | | Room Allocation                              | | 02/23  Cash  $500.00    | |
+| | 02/23/2026  3 Pax                   | | - Assigned Room: [___] [Assign Room]         | | 02/22  Card  $200.00    | |
+| └─────────────────────────────────────┘ | - Room Type/Class: [________] [________]       | └────────────────────────┘ |
+|                                         | - Included Pax: [__]  Extra Pax: [__]          |                           |
+| Quick Actions                            | - Extra Mattress: [__]                         |                           |
+| [No Show] [Cancel Booking] [View Stay]   | - Rate/Night: [$______]                        |                           |
+|                                         |                                               |                           |
+|                                         | Notes / Requests                               |                           |
+|                                         | [__________________________________________]  |                           |
+|                                         | [__________________________________________]  |                           |
++----------------------------------------------------------------------------------------------------------------------------+
+| PROOFS (RIGHT SIDEBAR BELOW)             | KEY / REGISTRATION                             | ACTIONS                    |
+|-----------------------------------------+-----------------------------------------------+---------------------------|
+| Proof Uploads                            | Registration Form                               | [Save Notes]              |
+| [Choose File] [Upload]                   | - Registration No: [__________]                | [Assign Key]              |
+| [Preview Image/ID]                       | - Signature Pad: [______________]              | [Confirm Check‑In ✓]      |
+|                                         | - Special Instructions: [______________]       | [Cancel]                  |
++----------------------------------------------------------------------------------------------------------------------------+
+| Bottom Navigation:  [Reservation]  [Checking In]  [Guest Stay]  [Checking Out]                                                |
++============================================================================================================================+
+
+Notes
+-----
+- Fields in square brackets are editable inputs.
+- Items in lists show key summary info for fast selection.
+- Buttons should be disabled when no reservation is selected.
+- Confirm Check‑In should validate status, dates, and payment requirements before proceeding.

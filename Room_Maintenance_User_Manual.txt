@@ -1,0 +1,102 @@
+Room Maintenance User Manual (Simple)
+=====================================
+
+This guide explains how to use the Room Maintenance form in simple words.
+
+Main Areas
+----------
+- Room List: shows all rooms.
+- Room Details: shows the selected room info and photo.
+- Filters: search and filter rooms.
+
+Room List
+---------
+- Click a row to view details.
+- Double-click a room to open it in the Reservation form.
+- Press Enter on a selected row to open it in the Reservation form.
+
+Filters
+-------
+- Search: type a room number to filter.
+- Room Type: filter by type.
+- Room Class: filter by class.
+- Status: filter by room status.
+- Price: filter by base rate.
+- Clear Filter: resets all filters.
+
+View Mode
+---------
+- Fields are read-only until you click Add/New or Edit.
+- Status cannot be changed in View Mode.
+
+Add a Room
+----------
+1) Click Add/New.
+2) Fill the details:
+   - Room Number (required)
+   - Room Type (required)
+   - Room Class (required)
+   - Included Pax
+   - Base Rate
+   - Extra Pax Rate
+   - Extra Mattress Rate
+   - Status (Available, Maintenance, Occupied, Inactive)
+3) (Optional) Click the Photo button to add a room image.
+4) Click Save and confirm.
+
+Edit a Room
+-----------
+1) Select a room in the list.
+2) Click Edit.
+3) Change the details.
+4) Click Save and confirm.
+
+Cancel Changes
+--------------
+- Click Cancel to discard changes and return to view mode.
+
+Delete a Room
+-------------
+1) Select a room in the list.
+2) Click Delete.
+3) Confirm the delete message.
+
+Photo
+-----
+- Photo can be added or changed only in Add/Edit mode.
+- Supported files: JPG, JPEG, PNG, BMP.
+
+Print
+-----
+- Print > Crystal Report: shows a print preview (CRPrint.rpt must exist in the app folder).
+- Print > Excel: exports to the Excel template (ReportTemplate.xlsx must exist in the app folder).
+
+Keyboard Shortcuts
+------------------
+- Ctrl + A: Add/New
+- Ctrl + S: Save
+- Ctrl + E: Edit
+- Delete: Delete selected room
+- Ctrl + Q: Cancel
+- Ctrl + Shift + X: Exit
+
+Navigation Menu
+---------------
+- BOF (Ctrl + Left): first room.
+- Previous (Ctrl + Up): previous room (wraps).
+- Next (Ctrl + Down): next room (wraps).
+- EOF (Ctrl + Right): last room.
+
+Refresh
+-------
+- Click the refresh icon to reload the room list and filters.
+
+Exit
+----
+- Click File > Exit.
+- Confirm to return to the Main form.
+
+Notes
+-----
+- Room Number must be unique.
+- If a room is used in a reservation, delete may fail.

@@ -1,0 +1,19 @@
+Dining & Bar (POS) Wireframe
+============================
+
++----------------------------------------------------------------------------------+
+| Header: User/Role | Shift Status | Date/Time | [New] [Hold] [Recall] [Void] [X]  |
+| Admin: [Menu Management] (hidden for non-admin roles)                             |
++---------------------------+--------------------------------------+---------------+
+| Order Context (Left)      | Menu & Items (Center)                | Order Details |
+| - Order Type              | [Category Tabs]                      | - Line Items  |
+| - Table/Section            | [Item Grid / Cards]                  | - Qty/Mods    |
+| - Guest Lookup (Room/Stay) | [Search / Filter]                    | - Discounts   |
+| - Notes                   |                                      | - Totals      |
++---------------------------+--------------------------------------+---------------+
+| Kitchen / Ticket Queue (Optional Panel)                          | Payment       |
+| - Ticket List / Status                                           | - Mode        |
+| - Send / Recall / Void                                            | - Split/Merge |
+|                                                                  | - Paid/Balance|
+|                                                                  | - Print       |
++----------------------------------------------------------------------------------+

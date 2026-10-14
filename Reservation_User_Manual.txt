@@ -1,0 +1,105 @@
+Reservation Form User Manual (Simple)
+======================================
+
+This guide explains how to use the Reservation form in simple words.
+
+Tabs
+----
+1) Room Availability
+   - Use this to make a new reservation.
+2) Reservation List
+   - Use this to view, edit, cancel, and collect payments.
+
+Top Filters (Both Tabs)
+-----------------------
+- Search: type a guest name, reservation number, or room info.
+- Room Type: filter by room type.
+- Room Class: filter by class.
+- Status: filter by room or booking status.
+- Date Range: works only on Reservation List tab.
+- Clear Filter: resets filters for the active tab.
+
+Room Availability Tab (Create Reservation)
+------------------------------------------
+1) Select dates:
+   - Check-In and Check-Out are on the right.
+   - Check-Out must be after Check-In.
+
+2) Select a room:
+   - Click a row in the room list.
+   - The room photo and details will show.
+
+3) Fill guest details:
+   - Guest Name (required)
+   - Phone (required)
+   - Email (optional)
+   - Notes (optional)
+
+4) Extras (optional):
+   - Extra Pax
+   - Extra Mattress
+
+5) Payment requirement:
+   - Deposit (%) OR Full Payment
+
+6) Initial payment (required):
+   - You must type an amount in Payment Amount.
+
+7) Create:
+   - Click Create.
+   - You will move to the Reservation List tab.
+
+Reservation List Tab (Manage Reservation)
+-----------------------------------------
+1) Select a reservation:
+   - Click a row in the reservation list.
+   - Details and status badge update.
+
+2) Update a reservation:
+   - Click Update Reservation.
+   - Button changes to Save Reservation.
+   - Edit fields and click Save Reservation.
+
+3) Cancel a reservation:
+   - Click Cancel Reservation.
+   - Enter a reason.
+
+4) Collect payment:
+   - Enter amount in Payment Amount.
+   - Click Collect Payment.
+
+5) Print slip:
+   - Click Print Slip.
+   - ReservationSlip.rpt must exist in the app folder.
+
+Navigation Menu (Works on Active Tab)
+-------------------------------------
+- BOF (Ctrl + Left): first row.
+- Previous (Ctrl + Up): previous row (wraps).
+- Next (Ctrl + Down): next row (wraps).
+- EOF (Ctrl + Right): last row.
+
+Refresh
+-------
+- Click the refresh icon in the menu strip.
+- The active grid reloads and photo/details sync.
+
+Status Badge (Reservation List Only)
+------------------------------------
+- Reserved: green
+- Pending: yellow
+- Cancelled: red
+- Checked In: blue
+- No-Show: gray
+
+Room Status Colors (Availability Grid)
+--------------------------------------
+- Available: light blue background, dark blue text
+- Reserved: green (same as Reserved badge)
+- Occupied: blue (same as Checked In badge)
+
+Notes
+-----
+- Initial payment is required to create a reservation.
+- If Deposit Required is 0, status becomes Reserved.
+- If another user changes the booking, your save will reload the latest data.

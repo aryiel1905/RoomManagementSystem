@@ -1,0 +1,24 @@
+STATUS REFERENCE (CANONICAL TERMS ONLY)
+
+Use these exact terms only. Do not use variants.
+
+Booking Status (tblBookings.[Booking Status])
+- Reserved
+- Pending
+- Checked In
+- Checked Out
+- Cancelled
+- No-show
+
+Room Status (tblRooms.[Room Status])
+- Available
+- Reserved
+- Occupied
+- Maintenance
+- Inactive
+
+Stay Status (tblStays.[Stay Status])
+- Checked In
+- Checked Out
+- In House
+- No-show

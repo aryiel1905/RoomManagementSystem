@@ -1,0 +1,15 @@
+Guest Stay Wireframe
+====================
+
++----------------------------------------------------------------------------------+
+| Guest Stay: User/Role | Date/Time | [Search Guest] [Refresh] [Exit]              |
++---------------------------+--------------------------------------+---------------+
+| Guest List (Left)         | Stay Details (Center)                | Charges       |
+| - In-house guests         | - StayID / Room No                   | - Room Charge |
+| - Filters (room/status)   | - Check-In / Check-Out               | - POS Orders  |
+|                           | - Guest Info                         | - Other Fees  |
+|                           | - Notes                              | - Total Due   |
++---------------------------+--------------------------------------+---------------+
+| Actions (Bottom)                                                         |
+| [Post Charge] [View Folio] [Extend Stay] [Move Room] [Checkout]          |
++----------------------------------------------------------------------------------+

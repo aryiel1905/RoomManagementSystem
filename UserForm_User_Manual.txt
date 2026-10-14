@@ -1,0 +1,68 @@
+User Form User Manual (Simple)
+==============================
+
+This guide explains how to use the User form in simple words.
+
+What This Form Does
+-------------------
+- Manage system users (add, edit, delete).
+- Set privilege and position.
+- Search and filter the user list.
+
+Top Filters
+-----------
+- Search: type a user name or ID.
+- Privilege: filter by Admin or User.
+- Position: filter by position.
+- Clear Filter: resets search and filters.
+
+User List (Left/Top Grid)
+-------------------------
+- Click a row to load the user details.
+- Password is hidden in the grid.
+- Photo (if any) will show on the right.
+
+User Details (Right Form)
+-------------------------
+Fields you can edit:
+- User Name (required)
+- Position (required)
+- Privilege (required)
+- Password + Retype Password (required)
+- Photo (optional)
+
+Buttons
+-------
+1) Add
+   - Generates a new User ID.
+   - Clears the form for entry.
+
+2) Save
+   - Saves a new user or updates an existing user.
+   - Password must match Retype Password.
+
+3) Edit
+   - Enables editing of the selected user.
+
+4) Cancel
+   - Cancels edit mode and restores the selected user.
+
+5) Delete
+   - Deletes the selected user.
+   - You cannot delete the current logged-in user.
+
+Photo
+-----
+- Choose an image file to set a user photo.
+- If a photo is removed and no other user uses it, the file is deleted.
+
+Privileges and Position Rules
+-----------------------------
+- Position is a dropdown list (no free text).
+- If Position is Owner or Manager, Privilege is set to Admin.
+
+Notes
+-----
+- User ID is read-only and auto-generated.
+- Filters affect the grid only, not the saved data.
+- Use Clear Filter to return to the full list.

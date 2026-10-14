@@ -1,0 +1,40 @@
+Main Form User Manual (Simple)
+==============================
+
+This guide explains how to use the Main form in simple words.
+
+Main Screen
+-----------
+- This is the dashboard after you log in.
+- Your role and name appear on the left (example: "Manager John").
+
+Module Buttons
+--------------
+Click a button to open that module. The Main form will hide.
+
+- User Form: manage user accounts (admin/manager only).
+- Reservation: open reservation form.
+- Checking In: open check-in form.
+- Checking Out: open check-out form.
+- Dining and Bar: open dining/bar module (if enabled).
+- Rooms: open room maintenance.
+- Guest Stays: open guest stay list.
+- Reports: open reports (admin only).
+
+Role Access
+-----------
+- Owner/Manager: all modules enabled; Reports only if privilege is Admin.
+- Front Desk: Reservation, Checking In/Out, Guest Stays only.
+- Outlet Staff: Dining and Bar only.
+- Buttons you cannot use are disabled.
+
+Exit
+----
+1) Click File > Exit.
+2) Confirm the exit message.
+3) You will return to the Login screen.
+
+Notes
+-----
+- The Main form refreshes your access when it is shown.
+- If your name shows as "--------------", you are not logged in.

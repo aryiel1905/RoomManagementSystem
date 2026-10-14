@@ -1,0 +1,72 @@
+Dining & Bar (POS) Form Layout
+================================
+
+Purpose
+-------
+Full POS with optional posting to in-house guest stays.
+Reports are excluded (handled in MainForm).
+Dining & Bar button opens POS directly; Menu Management is a panel/tab inside POS (admin/owner only).
+
+Screen Zones
+------------
+1) Header Bar
+- Current user / role
+- Active shift status
+- Current date/time
+- Quick actions: New Order, Hold, Recall, Void, Close
+
+2) Order Context (Left)
+- Order Type: Dine-In / Take-Out / Delivery / Room Charge
+- Table/Section selector (Dine-In)
+- Guest lookup (Room No / Guest Name / Stay ID)
+- Order notes
+
+3) Menu & Items (Center)
+- Category tabs
+- Item grid (name, price, availability)
+- Search / filter
+- Menu Management button/tab (admin/owner only)
+
+4) Order Details (Right)
+- Line items list
+- Qty adjust
+- Item modifiers / notes
+- Discounts / service charge
+- Subtotal / tax / total
+
+5) Payment Drawer (Bottom Right)
+- Payment mode: Cash / Card / E-Wallet / Room Charge
+- Split bill / merge orders
+- Paid amount / balance
+- Receipt actions: Print / Reprint
+
+6) Kitchen / Ticket Queue (Optional Panel)
+- Send to kitchen
+- Ticket status: New / In Progress / Served / Voided
+
+Functional Modules (No Reports)
+-------------------------------
+Core POS
+- Order Entry
+- Menu Management
+- Table/Section Management
+- Order Ticket / Kitchen Queue
+- Discounts & Service Charge
+- Split Bill / Merge Orders
+- Payments
+- Receipts / Reprint
+
+Hotel Integration
+- In-House Guest Lookup
+- Post to Room (Stay-linked charge)
+- Settlement History (guest folio view)
+
+Controls & Compliance
+- Void/Refund Authorization
+- Shift & Cash Drawer
+- Audit Log / User Actions
+
+Notes
+-----
+- Integrate to existing hotel stay records for room charges.
+- Keep reporting in MainForm reports module.

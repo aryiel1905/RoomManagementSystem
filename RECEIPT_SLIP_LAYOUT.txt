@@ -1,0 +1,66 @@
+RESERVATION / CHECK-IN SLIP (LAYOUT)
+===================================
+
+Hotel/Property:   LA CASA DE GEREZA
+Address:          [Street, City, Province]
+Contact:          [Phone] | [Email]
+Printed:          [YYYY-MM-DD HH:MM]
+
+------------------------------------------------------------
+Reservation Details
+------------------------------------------------------------
+Booking ID:       [BK-000123]
+Reservation Date: [YYYY-MM-DD]
+Status:           [Reserved / Checked In / Checked Out / Cancelled]
+Source:           [Walk-in / Phone / Online / Agent]
+
+------------------------------------------------------------
+Guest Details
+------------------------------------------------------------
+Guest Name:       [Last Name, First Name]
+Contact No.:      [09XX-XXX-XXXX]
+Email:            [guest@email.com]
+ID Type/No.:      [Optional]
+
+------------------------------------------------------------
+Stay Details
+------------------------------------------------------------
+Room No.:         [101]
+Room Type/Class:  [Deluxe / Standard]
+Check-in:         [YYYY-MM-DD HH:MM]
+Check-out:        [YYYY-MM-DD HH:MM]
+Nights:           [2]
+Pax Count:        [2 Adults, 1 Child]  (or [Total: 3])
+
+------------------------------------------------------------
+Charges
+------------------------------------------------------------
+Base Rate/Night:  [₱2,500.00]
+Extra Pax:        [₱0.00]
+Extra Mattress:   [₱500.00]
+Subtotal:         [₱5,500.00]
+Discount:         [-₱0.00]
+Tax/Service:      [₱0.00]
+TOTAL:            [₱5,500.00]
+
+------------------------------------------------------------
+Payments
+------------------------------------------------------------
+Amount Paid:      [₱2,000.00]
+Method:           [Cash / Card / Online]
+Balance Due:      [₱3,500.00]
+
+------------------------------------------------------------
+Notes
+------------------------------------------------------------
+Special Requests: [Late check-in]
+Staff Remarks:    [Optional]
+
+------------------------------------------------------------
+Prepared By
+------------------------------------------------------------
+Staff:            [Name / Position]
+Guest Signature:  ______________________
+Staff Signature:  ______________________
+
+Policies: Check-out time 12:00 NN. Damages & incidentals charged to guest.

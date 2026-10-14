@@ -1,0 +1,23 @@
+Menu Management Wireframe
+=========================
+
++--------------------------------------------------------------+
+| Menu Management                                               |
++------------------------------+-------------------------------+
+| Left: Categories             | Right: Item Details           |
+|                              |                               |
+| [Search Box___________]      | Item Name:  [______________]  |
+|                              | Category:   [Dropdown_____v]  |
+| Category List                | Unit Price: [_____.__]        |
+| - All                        | Is Active:  [x]               |
+| - Appetizers                 |                               |
+| - Mains                      | [Add New] [Save] [Delete]     |
+| - Drinks                     | [Clear]   [Close]             |
+| - Desserts                   |                               |
+|                              | Notes: [optional textbox]     |
++------------------------------+-------------------------------+
+| Bottom: Item List (filtered by category/search)              |
+| ID | Item Name           | Category    | Price | Active      |
+| 1  | Chicken Burger      | Mains       | 8.50  | Yes         |
+| 2  | Orange Juice        | Drinks      | 2.00  | Yes         |
++--------------------------------------------------------------+

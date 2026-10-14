@@ -1,0 +1,18 @@
+.vs/
+**/bin/
+**/obj/
+packages/
+*.user
+*.suo
+*.mdb
+*.accdb
+*.laccdb
+*.pdb
+*.log
+.claude/
+UpgradeLog*.htm
+UPDATED SCHEMAs.csv
+**/UPDATED SCHEMAs.csv
+**/Screenshot 2026-02-11 130757.png
+*.cache
+*.tmp

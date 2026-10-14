@@ -1,0 +1,45 @@
+Login Form User Manual (Simple)
+===============================
+
+This guide explains how to use the Login form in simple words.
+
+Login Screen
+------------
+1) Enter username:
+   - Type your User Name in the Username field.
+
+2) Enter password:
+   - Type your Password in the Password field.
+   - Use Show Password to reveal or hide the text.
+
+3) Log in:
+   - Click Log In.
+   - Or press Enter while in the Password field.
+
+Validation
+----------
+- If Username is empty, you will be asked to enter it.
+- If Password is empty, you will be asked to enter it.
+
+Login Attempts
+--------------
+- You have 3 tries total.
+- If you enter the wrong credentials:
+  - The remaining tries will be shown.
+  - Your Password field will clear.
+- When tries reach 0, the app will close.
+
+Exit
+----
+- Click the Close button.
+- You will see a confirmation message.
+
+Keyboard Shortcuts
+------------------
+- Enter (Username field): moves to Password.
+- Enter (Password field): attempts login.
+- Ctrl + Alt + F12: opens User Setup mode (admin use).
+
+Notes
+-----
+- Successful login opens the main window and hides the login screen.

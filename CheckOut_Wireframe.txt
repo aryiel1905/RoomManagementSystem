@@ -1,0 +1,15 @@
+Check-Out Wireframe
+===================
+
++----------------------------------------------------------------------------------+
+| Check-Out: User/Role | Date/Time | [Search Stay] [Refresh] [Exit]                |
++---------------------------+--------------------------------------+---------------+
+| Stay Lookup (Left)        | Stay Summary (Center)                | Settlement    |
+| - Search box              | - Guest Name / Room No               | - Total Due   |
+| - In-house list           | - Stay Dates / Nights                | - Payments    |
+| - Filters                 | - Charges Breakdown                  | - Balance     |
+|                           | - Notes / Issues                     | - Payment Mode|
++---------------------------+--------------------------------------+---------------+
+| Actions (Bottom)                                                         |
+| [Finalize Check-Out] [Print Receipt] [Adjust Charges] [Cancel]            |
++----------------------------------------------------------------------------------+
