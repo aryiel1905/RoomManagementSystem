@@ -37,4 +37,4 @@ This is a source code portfolio project, not a ready-to-run installer. A compati
 
 ## Verification
 
-The renamed solution was previously built with Visual Studio 2015 MSBuild using `Debug|x86`. The executable opened the Reservations window and connected to a local Access database. This confirms a local build and startup path, not every workflow or a clean-machine install.
+The renamed solution built successfully with Visual Studio 2022 Build Tools using `Debug|x86`. In an earlier local check, the executable opened the Reservations window and connected to an Access database. These checks confirm the build and a startup path, not every workflow or a clean-machine install.
